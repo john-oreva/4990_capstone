@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             Employment   R-squared:                       0.977
+Model:                            OLS   Adj. R-squared:                  0.977
+Method:                 Least Squares   F-statistic:                     5342.
+Date:                Mon, 13 Jan 2025   Prob (F-statistic):          3.09e-310
+Time:                        13:36:47   Log-Likelihood:                -4873.2
+No. Observations:                 384   AIC:                             9754.
+Df Residuals:                     380   BIC:                             9770.
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const       2.256e+06   9308.157    242.387      0.000    2.24e+06    2.27e+06
+Group      -1.343e+06   1.32e+04   -102.034      0.000   -1.37e+06   -1.32e+06
+Post       -4.322e+05   1.18e+04    -36.710      0.000   -4.55e+05   -4.09e+05
+Group_Post  5.968e+05   1.67e+04     35.840      0.000    5.64e+05     6.3e+05
+==============================================================================
+Omnibus:                      115.014   Durbin-Watson:                   2.709
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              281.888
+Skew:                           1.478   Prob(JB):                     6.15e-62
+Kurtosis:                       5.979   Cond. No.                         7.92
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
